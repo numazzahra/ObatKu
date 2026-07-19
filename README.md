@@ -25,7 +25,7 @@ ObatKu allows users to organize medication schedules, receive reminder notificat
 ## Installation
 
 ```bash
-git clone https://github.com/numazzahra/Obatku.git
+git clone https://github.com/numazzahra/ObatKu.git
 ```
 
 Open the project using Android Studio and run it on an emulator or Android device.
