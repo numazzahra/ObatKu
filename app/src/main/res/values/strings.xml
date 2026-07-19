@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ObatKu</string>
+    <string name="ringkasan_hari_ini">Ringkasan Hari Ini</string>
+    <string name="jadwal_minum_obat">Jadwal Minum Obat</string>
+    <string name="tambah_obat">Tambah Obat</string>
+    <string name="detail_obat">Detail Obat</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="simpan_obat">Simpan Obat</string>
+
+    <!-- Navbar -->
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_jadwal">Jadwal</string>
+    <string name="nav_tentang">Tentang</string>
+    <string name="nav_profil">Profil</string>
+
+    <!-- Form labels -->
+    <string name="label_nama_obat">Nama Obat</string>
+    <string name="label_waktu_konsumsi">Waktu Konsumsi</string>
+    <string name="label_jam">Jam</string>
+    <string name="label_dosis">Dosis</string>
+    <string name="label_catatan">Catatan</string>
+    <string name="hint_nama_obat">Contoh: Paracetamol</string>
+    <string name="hint_dosis">Contoh: 2 Kapsul</string>
+    <string name="hint_catatan">Catatan khusus (opsional)</string>
+
+    <!-- Tentang -->
+    <string name="tentang_deskripsi">ObatKu adalah aplikasi pengingat minum obat yang membantu Anda mengelola jadwal konsumsi obat dengan tepat waktu.</string>
+    <string name="version">Versi 1.0.0</string>
+</resources>

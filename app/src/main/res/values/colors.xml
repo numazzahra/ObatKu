@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Green Palette -->
+    <color name="green_darker">#0F172A</color>
+    <color name="green_dark">#1E293B</color>
+    <color name="green_normal">#0D9488</color>
+    <color name="green_normal_active">#0F766E</color>
+    <color name="green_light">#E2E8F0</color>
+    <color name="green_light_active">#CBD5E1</color>
+
+    <!-- Orange Palette -->
+    <color name="orange_darker">#475569</color>
+    <color name="orange_dark_hover">#334155</color>
+    <color name="orange_dark_active">#1E293B</color>
+    <color name="orange_normal">#0D9488</color>
+    <color name="orange_normal_hover">#0F766E</color>
+    <color name="orange_light">#F0FDFA</color>
+    <color name="orange_light_active">#E6F4F2</color>
+
+    <!-- Neutral -->
+    <color name="white_normal">#F8FAFC</color>
+    <color name="white_dark">#94A3B8</color>
+    <color name="white_darker">#64748B</color>
+    <color name="white_card">#FFFFFF</color>
+
+    <!-- Hardcoded dari SVG -->
+    <color name="red_logo">#0D9488</color>
+    <color name="card_summary_bg">#E6F4F2</color>
+    <color name="text_form_dark">#1E293B</color>
+
+    <!-- Status badges -->
+    <color name="status_sudah_bg">#D1FAE5</color>
+    <color name="status_sudah_text">#065F46</color>
+    <color name="status_belum_bg">#FEE2E2</color>
+    <color name="status_belum_text">#991B1B</color>
+</resources>

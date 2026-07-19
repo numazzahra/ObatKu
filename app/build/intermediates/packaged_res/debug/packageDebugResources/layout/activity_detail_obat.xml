@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_normal"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/page_padding_horizontal"
+        android:paddingTop="@dimen/page_padding_top"
+        android:paddingBottom="@dimen/spacing_6">
+
+        <!-- Header dengan back button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_back"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail Obat"
+                style="@style/Headline1"
+                android:textColor="@color/green_darker" />
+        </LinearLayout>
+
+        <!-- Nama Obat -->
+        <TextView
+            android:id="@+id/tvNamaObat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_6"
+            android:text="Paracetamol"
+            style="@style/Headline3"
+            android:textColor="@color/green_darker" />
+
+        <!-- Dosis + Jenis -->
+        <TextView
+            android:id="@+id/tvDosisJenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 gr - Kapsul"
+            style="@style/Body3"
+            android:textColor="@color/white_darker"
+            android:layout_marginTop="@dimen/spacing_1" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_4"
+            android:layout_marginBottom="@dimen/spacing_4"
+            app:cardCornerRadius="@dimen/radius_card"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/green_light"
+            app:cardBackgroundColor="@color/white_card"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_5">
+
+                <!-- Waktu + Aturan -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:text="Waktu"
+                        style="@style/Body2"
+                        android:textColor="@color/orange_darker" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvWaktu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08:00 AM"
+                            style="@style/Body2"
+                            android:textColor="@color/green_darker" />
+
+                        <TextView
+                            android:id="@+id/tvAturan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setelah Makan"
+                            style="@style/Body3"
+                            android:textColor="@color/orange_darker" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/green_light"
+                    android:layout_marginVertical="@dimen/spacing_3" />
+
+                <!-- Dosis + Frekuensi -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:text="Dosis"
+                        style="@style/Body2"
+                        android:textColor="@color/orange_darker" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvDosis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Kapsul"
+                            style="@style/Body2"
+                            android:textColor="@color/green_darker" />
+
+                        <TextView
+                            android:id="@+id/tvHari"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Senin - Minggu"
+                            style="@style/Body3"
+                            android:textColor="@color/orange_darker" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/green_light"
+                    android:layout_marginVertical="@dimen/spacing_3" />
+
+                <!-- Catatan -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:text="Catatan"
+                        style="@style/Body2"
+                        android:textColor="@color/orange_darker" />
+
+                    <TextView
+                        android:id="@+id/tvCatatan"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:text="Jangan dihancurkan. Minum dengan segelas air putih penuh."
+                        style="@style/Body3"
+                        android:textColor="@color/green_darker" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Status Konsumsi Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Konsumsi"
+            style="@style/Headline4"
+            android:textColor="@color/green_darker"
+            android:layout_marginBottom="@dimen/spacing_4" />
+
+        <!-- Status Pill Options -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/spacing_6">
+
+            <TextView
+                android:id="@+id/tvStatusSudah"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="Sudah Diminum"
+                style="@style/Body2"
+                android:layout_marginEnd="@dimen/spacing_2"
+                android:background="@drawable/bg_badge_sudah"
+                android:textColor="@color/status_sudah_text" />
+
+            <TextView
+                android:id="@+id/tvStatusBelum"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="Belum Diminum"
+                style="@style/Body2"
+                android:layout_marginStart="@dimen/spacing_2"
+                android:background="@drawable/bg_badge_belum"
+                android:textColor="@color/status_belum_text" />
+        </LinearLayout>
+
+        <!-- Tombol Tandai Sudah Diminum -->
+        <Button
+            android:id="@+id/btnToggleStatus"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Tandai Sudah Diminum"
+            style="@style/ButtonGreen" />
+
+        <!-- ✅ TOMBOL EDIT DAN HAPUS OBAT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/spacing_3">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="56dp"
+                android:layout_marginEnd="@dimen/spacing_1"
+                android:text="Edit"
+                android:textColor="@color/white_card"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
+                android:textAllCaps="false"
+                style="@style/ButtonGreen" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="56dp"
+                android:layout_marginStart="@dimen/spacing_1"
+                android:text="Hapus"
+                android:background="@drawable/bg_button_red"
+                android:textColor="@color/white_card"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_summary_card.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_summary_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_detail_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_detail_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_home_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_home_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_nav_inactive.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_nav_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_nav_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_nav_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_info_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_info_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_detail.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\font_manrope_bold.ttf.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\font\\manrope_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_card_white.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_card_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_add_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_add_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_activity_tentang.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\activity_tentang.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_button_green.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_button_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\font_manrope_extrabold.ttf.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\font\\manrope_extrabold.ttf"
+    },
+    {
+        "merged": "com.example.obatku.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.obatku.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_clock.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_logo_red.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_logo_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_item_obat.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\item_obat.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_empty_state.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_empty_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\font_manrope_semibold.ttf.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\font\\manrope_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_button_red.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_button_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_activity_tambah_obat.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\activity_tambah_obat.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\font_manrope_regular.ttf.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\font\\manrope_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_logo.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_activity_detail_obat.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\activity_detail_obat.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\font_manrope_medium.ttf.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\font\\manrope_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_badge_inactive.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_badge_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_item_obat_swipe.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\item_obat_swipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_badge_sudah.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_badge_sudah.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_badge_belum.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_badge_belum.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_bg_badge_active.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\bg_badge_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-debug-32:\\drawable_progress_bar_custom.xml.flat",
+        "source": "C:\\Users\\numaz\\.gradle\\daemon\\9.0.0\\com.example.obatku.app-main-34:\\drawable\\progress_bar_custom.xml"
+    }
+]

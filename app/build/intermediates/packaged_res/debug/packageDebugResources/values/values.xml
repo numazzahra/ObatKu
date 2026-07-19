@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="waktu_konsumsi_array">
+        <item>Pagi (05:00-10:00)</item>
+        <item>Siang (10:00-14:00)</item>
+        <item>Sore (14:00-18:00)</item>
+        <item>Malam (18:00-23:00)</item>
+    </string-array>
+    <color name="card_summary_bg">#E6F4F2</color>
+    <color name="green_dark">#1E293B</color>
+    <color name="green_darker">#0F172A</color>
+    <color name="green_light">#E2E8F0</color>
+    <color name="green_light_active">#CBD5E1</color>
+    <color name="green_normal">#0D9488</color>
+    <color name="green_normal_active">#0F766E</color>
+    <color name="orange_dark_active">#1E293B</color>
+    <color name="orange_dark_hover">#334155</color>
+    <color name="orange_darker">#475569</color>
+    <color name="orange_light">#F0FDFA</color>
+    <color name="orange_light_active">#E6F4F2</color>
+    <color name="orange_normal">#0D9488</color>
+    <color name="orange_normal_hover">#0F766E</color>
+    <color name="red_logo">#0D9488</color>
+    <color name="status_belum_bg">#FEE2E2</color>
+    <color name="status_belum_text">#991B1B</color>
+    <color name="status_sudah_bg">#D1FAE5</color>
+    <color name="status_sudah_text">#065F46</color>
+    <color name="text_form_dark">#1E293B</color>
+    <color name="white_card">#FFFFFF</color>
+    <color name="white_dark">#94A3B8</color>
+    <color name="white_darker">#64748B</color>
+    <color name="white_normal">#F8FAFC</color>
+    <dimen name="elevation_card">2dp</dimen>
+    <dimen name="elevation_navbar">12dp</dimen>
+    <dimen name="page_padding_horizontal">24dp</dimen>
+    <dimen name="page_padding_top">32dp</dimen>
+    <dimen name="radius_badge">100dp</dimen>
+    <dimen name="radius_button_pill">100dp</dimen>
+    <dimen name="radius_card">20dp</dimen>
+    <dimen name="radius_input">12dp</dimen>
+    <dimen name="radius_logo">20dp</dimen>
+    <dimen name="spacing_0">0dp</dimen>
+    <dimen name="spacing_0_5">2dp</dimen>
+    <dimen name="spacing_1">4dp</dimen>
+    <dimen name="spacing_2">8dp</dimen>
+    <dimen name="spacing_3">12dp</dimen>
+    <dimen name="spacing_4">16dp</dimen>
+    <dimen name="spacing_5">20dp</dimen>
+    <dimen name="spacing_6">24dp</dimen>
+    <dimen name="spacing_7">28dp</dimen>
+    <dimen name="spacing_8">32dp</dimen>
+    <string name="app_name">ObatKu</string>
+    <string name="detail_obat">Detail Obat</string>
+    <string name="hint_catatan">Catatan khusus (opsional)</string>
+    <string name="hint_dosis">Contoh: 2 Kapsul</string>
+    <string name="hint_nama_obat">Contoh: Paracetamol</string>
+    <string name="jadwal_minum_obat">Jadwal Minum Obat</string>
+    <string name="label_catatan">Catatan</string>
+    <string name="label_dosis">Dosis</string>
+    <string name="label_jam">Jam</string>
+    <string name="label_nama_obat">Nama Obat</string>
+    <string name="label_waktu_konsumsi">Waktu Konsumsi</string>
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_jadwal">Jadwal</string>
+    <string name="nav_profil">Profil</string>
+    <string name="nav_tentang">Tentang</string>
+    <string name="ringkasan_hari_ini">Ringkasan Hari Ini</string>
+    <string name="simpan_obat">Simpan Obat</string>
+    <string name="tambah_obat">Tambah Obat</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="tentang_deskripsi">ObatKu adalah aplikasi pengingat minum obat yang membantu Anda mengelola jadwal konsumsi obat dengan tepat waktu.</string>
+    <string name="version">Versi 1.0.0</string>
+    <style name="BadgeBelum">
+        <item name="android:background">@drawable/bg_badge_belum</item>
+        <item name="android:textColor">@color/status_belum_text</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+    <style name="BadgeSudah">
+        <item name="android:background">@drawable/bg_badge_sudah</item>
+        <item name="android:textColor">@color/status_sudah_text</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+    <style name="Base.Theme.ObatKu" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-2.8dp</item>
+    </style>
+    <style name="Body3">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-2.6dp</item>
+    </style>
+    <style name="Body4">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-2.2dp</item>
+    </style>
+    <style name="ButtonGreen" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_button_green</item>
+        <item name="android:textColor">@color/white_card</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingVertical">14dp</item>
+        <item name="cornerRadius">100dp</item>
+    </style>
+    <style name="ButtonText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Headline1">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-5.6dp</item>
+    </style>
+    <style name="Headline3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-4dp</item>
+    </style>
+    <style name="Headline4">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">-3.2dp</item>
+    </style>
+    <style name="InputField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/text_form_dark</item>
+        <item name="android:textColorHint">@color/white_dark</item>
+    </style>
+    <style name="NavItemStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Theme.ObatKu" parent="Base.Theme.ObatKu"/>
+</resources>

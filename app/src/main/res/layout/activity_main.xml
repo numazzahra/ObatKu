@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_normal">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavContainer"
+        android:scrollbars="none"
+        android:paddingHorizontal="@dimen/page_padding_horizontal"
+        android:paddingTop="@dimen/page_padding_top"
+        android:paddingBottom="@dimen/spacing_4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Modern Welcome Header -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@id/tvDate"
+                    android:layout_marginEnd="@dimen/spacing_2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Halo, Salam Sehat!"
+                        style="@style/Headline3"
+                        android:textColor="@color/green_darker"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ayo minum obat tepat waktu"
+                        style="@style/Body3"
+                        android:textColor="@color/green_dark"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="Sabtu, 25 April 2026"
+                    style="@style/Body4"
+                    android:textColor="@color/green_darker"
+                    android:background="@drawable/bg_nav_active"
+                    android:paddingHorizontal="@dimen/spacing_3"
+                    android:paddingVertical="@dimen/spacing_1"/>
+            </RelativeLayout>
+
+            <!-- Modernized Summary Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_2"
+                android:background="@drawable/bg_summary_card"
+                android:padding="@dimen/spacing_5"
+                android:orientation="vertical"
+                android:elevation="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ringkasan_hari_ini"
+                    style="@style/Headline4"
+                    android:textColor="@color/green_darker"/>
+
+                <TextView
+                    android:id="@+id/tvProgressText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_2"
+                    android:text="0 dari 0 obat sudah diminum tepat waktu."
+                    style="@style/Body2"
+                    android:textColor="@color/green_dark"/>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="@dimen/spacing_4"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progress_bar_custom" />
+            </LinearLayout>
+
+            <!-- Jadwal Minum Obat Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jadwal_minum_obat"
+                    style="@style/Headline3"
+                    android:textColor="@color/green_darker"/>
+
+                <!-- RecyclerView untuk list obat -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvObatList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_3"
+                    android:nestedScrollingEnabled="false" />
+
+                <!-- EMPTY STATE (muncul kalau obatList kosong) -->
+                <LinearLayout
+                    android:id="@+id/emptyStateLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_8"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_empty_state"
+                        android:contentDescription="Belum ada obat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_4"
+                        android:text="Belum ada jadwal obat"
+                        style="@style/Headline4"
+                        android:textColor="@color/green_darker" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_2"
+                        android:text="Klik tombol + untuk menambahkan obat baru"
+                        style="@style/Body3"
+                        android:textColor="@color/white_darker"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Floating Bottom Navigation Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomNavContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white_card"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:id="@+id/bottomNavLayout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <!-- 1. Beranda (Active) -->
+            <LinearLayout
+                android:id="@+id/navBeranda"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_nav_active"
+                android:layout_marginVertical="6dp"
+                android:layout_marginHorizontal="8dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_home_active" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beranda"
+                    style="@style/Body4"
+                    android:textColor="@color/red_logo"
+                    android:layout_marginTop="@dimen/spacing_0_5" />
+            </LinearLayout>
+
+            <!-- 2. Tambah -->
+            <LinearLayout
+                android:id="@+id/navTambah"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_nav_inactive"
+                android:layout_marginVertical="6dp"
+                android:layout_marginHorizontal="8dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tambah"
+                    style="@style/Body4"
+                    android:textColor="@color/white_darker"
+                    android:layout_marginTop="@dimen/spacing_0_5" />
+            </LinearLayout>
+
+            <!-- 3. Detail -->
+            <LinearLayout
+                android:id="@+id/navDetail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_nav_inactive"
+                android:layout_marginVertical="6dp"
+                android:layout_marginHorizontal="8dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_detail" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail"
+                    style="@style/Body4"
+                    android:textColor="@color/white_darker"
+                    android:layout_marginTop="@dimen/spacing_0_5" />
+            </LinearLayout>
+
+            <!-- 4. Tentang -->
+            <LinearLayout
+                android:id="@+id/navTentang"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_nav_inactive"
+                android:layout_marginVertical="6dp"
+                android:layout_marginHorizontal="8dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_info" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang"
+                    style="@style/Body4"
+                    android:textColor="@color/white_darker"
+                    android:layout_marginTop="@dimen/spacing_0_5" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- FAB Button Tambah Obat (Modern Floating) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabTambahObat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_add"
+        app:tint="@color/white_card"
+        app:backgroundTint="@color/green_normal"
+        app:fabSize="normal"
+        app:elevation="6dp" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_3"
+    app:cardCornerRadius="@dimen/radius_card"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/green_light"
+    app:cardBackgroundColor="@color/white_card"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_4">
+
+        <!-- Header: Nama Obat + Badge Status -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvNamaObat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/tvStatus"
+                android:layout_marginEnd="@dimen/spacing_2"
+                style="@style/Headline3"
+                android:text="Amoxicillin"
+                android:textColor="@color/green_darker" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:textSize="11sp"
+                android:fontFamily="@font/manrope_bold"
+                android:background="@drawable/bg_badge_belum"
+                android:textColor="@color/status_belum_text"
+                android:text="Belum" />
+        </RelativeLayout>
+
+        <!-- Waktu & Jenis (Inline / Horizontal Row) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_3"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_clock"
+                app:tint="@color/green_normal" />
+
+            <TextView
+                android:id="@+id/tvWaktu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Body2"
+                android:text="08:00 • Sesudah Makan"
+                android:textColor="@color/green_dark"
+                android:layout_marginStart="@dimen/spacing_2" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                android:background="@color/green_light"
+                android:layout_marginHorizontal="@dimen/spacing_3" />
+
+            <TextView
+                android:id="@+id/tvJenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Body3"
+                android:text="Jenis: Kapsul"
+                android:textColor="@color/orange_darker" />
+        </LinearLayout>
+
+        <!-- Catatan (Rounded Box Style) -->
+        <TextView
+            android:id="@+id/tvCatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Body4"
+            android:text="Catatan: Pastikan perut tidak kosong"
+            android:textColor="@color/green_dark"
+            android:background="@drawable/bg_nav_active"
+            android:padding="@dimen/spacing_2"
+            android:layout_marginTop="@dimen/spacing_3" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

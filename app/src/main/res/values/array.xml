@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="waktu_konsumsi_array">
+        <item>Pagi (05:00-10:00)</item>
+        <item>Siang (10:00-14:00)</item>
+        <item>Sore (14:00-18:00)</item>
+        <item>Malam (18:00-23:00)</item>
+    </string-array>
+</resources>
